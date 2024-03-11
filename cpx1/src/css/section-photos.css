@@ -1,10 +1,16 @@
+
 .section__photos{
     display: flex;
     flex-direction: column;
     gap: 2rem;
 
-    padding-top: 2rem;
+    padding-top: 20px;
     padding-bottom: 2rem;
+}
+
+.section__photos h1{
+    color: rgba(0, 0, 0, 0.89);
+    font-weight: 600;
 }
 
 .section__div{
@@ -21,7 +27,10 @@
 .section__icon{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 5px;
+    color: rgb(58, 56, 56); 
+    font-size: 14px;
 }
 
 .list__photos{
