@@ -61,36 +61,36 @@
         <div class="section__div">
             <h1 class="section__title">Apartamento no Gonzaga ao lado da praia</h1>
             <div class="section__icons">
-                <div class="section__icon">
+                <button class="section__icon">
                     <span class="material-symbols-outlined">
                         ios_share
                     </span>
                     <p>Compartilhar</p>
-                </div>
-                <div class="section__icon">
+                </button>
+                <button class="section__icon">
                     <span class="material-symbols-outlined">
                         favorite
                     </span>
                     <p>Salvar</p>
-                </div>
+                </button>
             </div>
         </div>
 
         <div class="list__photos">
             <div class="grid__item1 grid__item">
-                <img src="./src/assets/foto-1.webp" alt="">
+                <img src="./src/assets/foto-1.webp" alt="Imagem de um prédio com sacadas com cor azul marinho">
             </div>
             <div class="grid__item2 grid__item">
-                <img src="./src/assets/foto-2.webp" alt="">
+                <img src="./src/assets/foto-2.webp" alt="Foto do interior da sacada do prédio mostrando a cozinha">
             </div>
             <div class="grid__item3 grid__item">
-                <img src="./src/assets/foto-3.webp" alt="">
+                <img src="./src/assets/foto-3.webp" alt="Foto do interior do quarto mostrando a cama">
             </div>
             <div class="grid__item4 grid__item">
-                <img src="./src/assets/foto-4.webp" alt="">
+                <img src="./src/assets/foto-4.webp" alt="Foto do interior da cozinha">
             </div>
             <div class="grid__item5 grid__item">
-                <img src="./src/assets/foto-5.webp" alt="">
+                <img src="./src/assets/foto-5.webp" alt="Foto do interior da sacada mostrando o quarto de um outro angulo">
             </div>
         </div>
     </section>
@@ -172,14 +172,14 @@
 
             <div class="where_sleep">
                 <h2>Onde você vai dormir</h2>
-                <ul>
-                    <li>
-                        <img src="/src/assets/Foto-frente-cama.webp" alt="">
+                <ul class="where_sleep__list">
+                    <li class="where_sleep__item">
+                        <img class="where_sleep__img" src="./src/assets/foto-3.webp" alt="">
                         <h4>Quarto</h4>
                         <p>1 cama queen</p>
                     </li>
                     <li>
-                        <img src="/src/assets/sala-de-estar.webp" alt="">
+                        <img class="where_sleep__img" src="./src/assets/sala-de-estar.webp" alt="">
                         <h4>Sala de estar</h4>
                         <p>1 cama queen</p>
                     </li>
@@ -252,7 +252,7 @@
                     </li>
                 </ul>
 
-                <button class="button_service">
+                <button class="button__service">
                     Mostrar todas as 39 comodidades
                 </button>
             </div>
@@ -262,14 +262,14 @@
                 <span>Adicione suas datas de viagem para ver os preços exatos</span>
 
                 <div class="calendar">
-                    
+                    <img src="./src/assets/calendario.png" alt="">
                 </div>
 
-                <div class="icon__calendar">
+                <div class="calendar__buttons">
                     <span class="material-symbols-outlined">
                         keyboard_alt
                     </span>
-                    <button>Limpar datas</button>
+                    <button class="calendar__button">Limpar datas</button>
                 </div>
             </div>
         </div>
@@ -280,8 +280,19 @@
                     <h3 class="checkin__title">R$299 noite</h3>
                     
                     <div class="checkin__div">
-                        <div>
-                            
+                        <div class="checkin__checkout--container">
+                            <div class="checkin__checkin checkin__box">
+                                <h5>Check-in</h5>
+                                <span>Adcionar data</span>
+                            </div>
+                            <div class="checkin__checkout checkin__box">
+                                <h5>Checkout</h5>
+                                <span>Adcionar data</span>
+                            </div>
+                        </div>
+                        <div class="checkin__hospedes checkin__box">
+                            <h5>Hóspedes</h5>
+                            <span>1 hóspede</span>
                         </div>
                     </div>
                     <button class="checkin__button">Conferir disponibilidade</button>
@@ -362,36 +373,36 @@
             </ul>
         </div>
 
-        <div class="coments">
-            <ul>
-                <li>
-                    <div>
-                        <img src="./src/assets/foto-stephanie.webp" alt="">
+        <div class="comments">
+            <ul class="comments__list">
+                <li class="comments__list--item">
+                    <div class="comments__profile">
+                        <img class="comments__photo" src="./src/assets/foto-stephanie.webp" alt="">
                         <div>
                             <h4>Stephanie</h4>
                             <span>Mauá, brasil</span>
                         </div>
                     </div>
 
-                    <div>
-                        <div>estrelas</div>
+                    <div class="comments__time">
+                        <img class="comments__stars" src="./src/assets/5estrelas.webp" alt="">
                         <div>2 semanas </div>
-                        <div><span>Ficou uma noite</span></div>
+                        <span>Ficou uma noite</span>
                     </div>
                     <p>Estadia impecável, uma lindeza esse apê e o serviço do condômino excepcional! Com certeza voltaremos 🥰</p>
                 </li>
                 
-                <li>
-                    <div>
-                        <img src="./src/assets/leandro.webp" alt="">
+                <li class="comments__list--item">
+                    <div class="comments__profile">
+                        <img class="comments__photo" src="./src/assets/leandro.webp" alt="">
                         <div>
                             <h4>Leandro</h4>
                             <span>Brasil</span>
                         </div>
                     </div>
 
-                    <div>
-                        <img src="./src/assets/5estrelas.webp" alt="">
+                    <div class="comments__time">
+                        <img class="comments__stars" src="./src/assets/5estrelas.webp" alt="">
                         <div>janeiro de 2024</div>
                         <span>Ficou algumas noites</span>
                     </div>
